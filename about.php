@@ -21,27 +21,13 @@
 	<tr>
 		<td> 
 			<?php
-  				include("Slide/slide1.html");
+  				include("Slide3/slide3.html");
   			?>
 		</td>
 		<td>
 			<h3>Sidarman</h3><hr>
 			<p>Sidarman is an application that is enabled to notify the geographic information prambanan region
 sidarman is stands GEOGRAPHIC INFORMATION SYSTEM REGIONAL PRAMBANAN.</p>
-		</td>
-	</tr>
-	
-</table>
-<table class="table" border="0px">
-	<tr>
-		<td> 
-			<h3>Sidarman</h3><hr>
-			<p>Sidarman Created for review that is used to facilitate the who want to know information about Prambanan and its surroundings .</p>
-		</td>
-		<td>
-			<?php
-  				include("Slide2/slide2.html");
-  			?>
 		</td>
 	</tr>
 </table>

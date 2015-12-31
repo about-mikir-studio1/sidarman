@@ -9,17 +9,15 @@ src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCUmX6Xyoy4amBcTF6qDlx3PF9q
           type="text/javascript"></script>
 </head>
 <body>
-    <div id="posisiPeta" style="width:950px;height:568px;"></div>
-
-  <script type="text/javascript">
-
+  <div id="posisiPeta" style="width:950px;height:568px;"></div>
+   <script type="text/javascript">
     var posisi = [
-      ['Rumah Saya<hr><br>Heri Purnama</br><hr>125410101<marquee> Mranggisari, Solodiran, Manisrenggo, Klaten</marquee>  ', -7.7147713,110.4985977, 1],
+      ['Posisi Daerah Prambanan<hr><br>Kecamatan Prambanan</br><hr>Yogyakarta<marquee> Prambanan, </marquee>  ', -7.7147713,110.4985977, 1],
           ];
 
     var petaKu = new google.maps.Map(document.getElementById('posisiPeta'), {
-      zoom: 13,
-      center: new google.maps.LatLng( -7.7147713,110.4985977),
+      zoom: 11,
+      center: new google.maps.LatLng(-7.75166,110.4995491),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 

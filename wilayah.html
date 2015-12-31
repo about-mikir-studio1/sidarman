@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCUmX6Xyoy4amBcTF6qDlx3PF9qOJofVPs">
+</script>
+ 
+<script> 
+var t2=new google.maps.LatLng(-7.7518027,110.4892787); 
+var pusatPeta=t2; 
+ 
+function initialize() { 
+    var mapProp = { 
+            center:pusatPeta, 
+            zoom:10, 
+  mapTypeId: google.maps.MapTypeId.ROADMAP 
+ }; 
+ 
+var petaKu=new 
+google.maps.Map(document.getElementById("nggone_peta"),mapProp); 
+ 
+var plg = new google.maps.KmlLayer({ 
+url: 
+'http://heriipurnama.xyz/mi/batasWilayahKotaPrambanan.kml' 
+  }); 
+    /*minus
+       - file kml harus diupload diweb untuk menampilkan hasilnya
+       - koordinat difile kml berbalik dari yang seharusnya yang mulanya (lat,long) dirubah mjd (long,lat)
+       - digoogle tidak ada batas kecamatan hanya sampai batas provinsi 
+       - untuk data yang lebih lengkap dengan ( maps.google.com ) */
+plg.setMap(petaKu); 
+} 
+ 
+google.maps.event.addDomListener(window, 'load', initialize); 
+</script> 
+</head> 
+ 
+<body> 
+<div id="nggone_peta" style="width:1000px;height:600px;"></div> 
+</body> 
+</html> 
