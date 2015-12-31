@@ -26,8 +26,8 @@
 		</td>
 		<td>
 			<h3>Sidarman</h3><hr>
-			<p>Sidarman is an application that is enabled to notify the geographic information prambanan region
-sidarman is stands GEOGRAPHIC INFORMATION SYSTEM REGIONAL PRAMBANAN.</p>
+			<p>Prambanan rich cultural attractions and a famous tourist Prambanan example and become a city icon is the Prambanan temple itself .<p>
+			<p> The temple at Prambanan not only Prambanan temples , but there are others that should be visited by tourists</p>
 		</td>
 	</tr>
 	
